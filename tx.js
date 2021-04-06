@@ -1,6 +1,6 @@
 /* transactions */
 /* disadvantage is that you are connecting and disconnecting for every single request or execution */
-const {DB} = require('./weird.js');
+const {DB} = require('./weird.js'); /* file for database parameters */
 const {Client} = require('pg')
 
 const client = new Client ({

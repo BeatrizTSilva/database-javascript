@@ -1,5 +1,5 @@
 /* initialize the project */
-const {DB} = require('./weird.js');
+const {DB} = require('./weird.js'); /* file for database parameters */
 /* connect to the database you need to create a client object that will allow the connection to the database */
 const {Client} = require('pg'); /* will require the library Client */
 /* OR cont {Client} = require('pg'); */
