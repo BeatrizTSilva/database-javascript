@@ -1,0 +1,22 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "attempt 1 at connection to postgresql database through javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node .",
+    "full": "node fulltable.js",
+    "async": "node async_fulltable.js",
+    "tx": "node tx.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pisar-relva/telemetria/tree/database/javascript"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.5.1"
+  }
+
+}
